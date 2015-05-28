@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+  
+    >
+    <TableRow>
+        
+        <!-- 白色 -->
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_white"
+       
+        android:layout_weight="1"
+        android:layout_marginLeft="2px"
+         android:layout_marginRight="2px"
+        android:id="@+id/white"
+        />
+   
+    <!-- 黄色  -->
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_yello"
+          android:layout_marginLeft="2px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/yellow"
+        />
+    
+    <!-- 蓝色  -->
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/blue"
+        />
+      
+      <!-- 浅绿色  -->
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_aqua"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/aqua"
+        />
+      </TableRow>
+      <TableRow>
+          
+          <!-- 淡灰色  -->
+        <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gainsboro"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/gainsboro"
+        />
+        
+        <!-- 红色 -->
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_red"
+          android:layout_marginLeft="2px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/red"
+      
+        />
+     
+     <!--  天蓝色 -->
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_lightskyblue"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/lightskyblue"
+        />
+     
+     <!-- 蓝绿色 -->
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_turquoise"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/turquoise"
+        /> 
+     </TableRow>
+     
+      <TableRow>
+          
+          <!-- 亮黄色 -->
+        <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_green"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/green"
+        />
+        
+        <!-- 橘黄色 -->
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_orange"
+          android:layout_marginLeft="2px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/orange"
+      
+        />
+     
+     <!-- 黑色 -->
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_black"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/black"
+        />
+     
+     <!-- 淡紫色  -->
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_orchid"
+         android:layout_marginLeft="5px"
+         android:layout_marginRight="5px"
+         android:layout_weight="1"
+        android:id="@+id/orchid"
+        /> 
+     </TableRow>
+   </TableLayout>
+    

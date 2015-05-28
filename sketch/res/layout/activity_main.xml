@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+  
+ 
+     >
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+  
+         >
+  	<fragment
+        android:name="com.example.sketch.colorFragment"
+        android:id="@+id/colorFragment"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_horizontal"
+        />
+  	
+     <fragment
+        android:name="com.example.sketch.toolFragment"
+        android:id="@+id/toolFragment"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+        />
+     
+      <fragment
+        android:name="com.example.sketch.pictureFragment"
+        android:id="@+id/pictureFragment"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+      />
+      
+       <fragment
+        android:name="com.example.sketch.strokeFragment"
+        android:id="@+id/strokeFragment"
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+        />
+    </LinearLayout>
+    
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         
+         >
+      <com.example.sketch.draw
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/mydraw"
+    />
+     </LinearLayout>
+    
+</LinearLayout>
+
